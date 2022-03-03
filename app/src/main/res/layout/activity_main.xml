@@ -96,11 +96,17 @@
         android:layout_height="wrap_content"
         android:entries="@array/uf"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="7dp">
 
     <Button
         android:id="@+id/limparBT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:textAllCaps="false"
         android:text="Limpar" />
 
@@ -108,7 +114,10 @@
         android:id="@+id/salvarBt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:textAllCaps="false"
         android:text="Salvar"/>
+
+    </LinearLayout>
 
 </LinearLayout>
